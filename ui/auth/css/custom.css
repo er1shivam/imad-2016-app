@@ -1,0 +1,19 @@
+body{
+    padding: 50px;
+
+}
+
+.flag{
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+
+.btn-custm{
+    min-width: 400px;
+}
+
+#red_font{
+    color: #f33;
+}

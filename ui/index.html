@@ -1,17 +1,80 @@
-<!doctype html>
-<html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/style.css">
+
+    <title>Online Railway</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="../image/train3.gif" width="300px" alt="Railway logo">
+            </div>
+            <div class="col-md-9 heading">
+            <h1 class="text-right">INDIAN RAILWAYS</h1>
+            </div>
         </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am your webapp.
+
+        <div class="row">
+            <div class="col-md-12 ">
+                <ul>
+                    <li> <a href="index.html">Home</a> </li><!--
+                    <li> <a href="trains_code.html">Train Code</a>  </li> -->
+                    <li> <a href="auth/check_pnr.php"> Check PNR </a> </li>
+                    <!--<li> <a href="trains_station.html">Trains between station</a> </li> -->
+                    <li> <a href="about.html">About</a> </li>
+                </ul>
+
+
+            </div>
         </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
+        <div class="row">
+            <div class="col-md-12 slide">
+                <img src="../image/train1.jpg" alt="railway slideshow" height="350px" width="1080px" >
+            </div>
+        </div>
+
+        <div class="row setr">
+            <div class="col-md-12">
+                <blockquote>
+                    <h3 id="about">About </h3>
+                 </blockquote>
+            </div>
+            <div class="col-md-9">
+                <p>
+                    Indian Railways (reporting mark IR) is an Indian state-owned enterprise, owned and operated by the Government of India through the Ministry of Railways. It is one of the world's largest railway networks comprising 115,000 km (71,000 mi) of track over a route of 67,312 km (41,826 mi) and 7,112 stations.[3] In 2014-15, IR carried 8.397 billion passengers annually or more than 23 million passengers a day (roughly half of whom were suburban passengers) and 1.05 billion tons of freight in the year.[3] In 2014–2015 Indian Railways had revenues of ₹1.634 trillion (US$24 billion) which consists of ₹1.069 trillion (US$16 billion) from freight and ₹402.80 billion (US$6.0 billion) from passengers tickets.[2]
+
+Railways were first introduced to India in the year 1853 from Mumbai to Thane. In 1951 the systems were nationalised as one unit, the Indian Railways, becoming one of the largest networks in the world. IR operates both long distance and suburban rail systems on a multi-gauge network of broad, metre and narrow gauges. It also owns locomotive and coach production facilities at several places in India, with assigned codes identifying their gauge, kind of power and type of operation. Its operations cover twenty nine states and seven union territories and also provide limited international services to Nepal, Bangladesh and Pakistan.
+                </p>
+        
+            </div>
+             <div class="col-md-3 bgl" background="">
+             <div class="ph-float">
+                <a href='auth/login.php' class='ph-button ph-btn-blue'>Login</a>
+            </div>
+             <div class="ph-float">
+                 <a href='auth/signup.php' class='ph-button ph-btn-green'>Signup</a>
+               </div>
+            <div class="ph-float">
+                <a href='auth/adminlogin.php' class='ph-button ph-btn-red'>Admin</a>
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+<footer>
+    <p>
+
+       
+    </p>
+</footer>
+</body>
 </html>
